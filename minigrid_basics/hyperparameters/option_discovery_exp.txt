@@ -1,0 +1,43 @@
+Best hyperparameters for option discovery experiments:
+
+SR_best_hyperparameters = [
+    # [p_option, dataset_size, learn_rep_iteration, representation_step_size, num_options]  # env
+    [0.05, 100, 1, 0.1, 1],     # dayan (Grid Task in the paper)
+    [0.05, 100, 1, 0.1, 1],     # dayan_2
+    [0.1, 100, 10, 0.1, 1],     # fourooms  (Four Rooms)
+    [0.1, 100, 10, 0.1, 1],     # fourooms_2
+    [0.1, 100, 10, 0.1, 1],     # gridroom  (Grid Room)
+    [0.1, 100, 10, 0.1, 1],     # gridroom_2
+    [0.1, 100, 100, 0.01, 1],   # gridmaze    (Grid Maze)
+    [0.1, 100, 100, 0.01, 1],   # gridmaze_2
+    [0.05, 100, 100, 0.01, 1],  # gridroom_25   (Grid Room (L))
+    [0.05, 100, 100, 0.01, 1]   # gridmaze_29   (Grid Maze (L))
+]
+
+DR_best_hyperparameters = [
+    [0.05, 100, 10, 0.01, 1],
+    [0.05, 100, 1, 0.1, 1],
+    [0.05, 100, 1, 0.1, 1],
+    [0.1, 100, 10, 0.01, 1],
+    [0.1, 100, 1, 0.01, 1],
+    [0.1, 100, 1, 0.03, 1],
+    [0.1, 100, 1, 0.01, 1],
+    [0.1, 100, 1, 0.01, 1],
+    [0.05, 100, 1, 0.03, 1],
+    [0.1, 100, 1, 0.03, 1]
+]
+
+# ROD+Q baseline: QL (ROD_q_learning.py)
+qlearning_best_hyperparameters = [
+    # [init, epsilon, step_size]
+    [-10, 0.2, 0.01],
+    [-10, 0.15, 0.01],
+    [-10, 0.2, 1.0],
+    [-10, 0.15, 1.0],
+    [-10, 0.2, 0.3],
+    [-10, 0.2, 0.3],
+    [-10, 0.2, 0.1],
+    [0, 0.2, 1.0],
+    [-10, 0.2, 0.3],
+    [-10, 0.2, 0.3]
+]
