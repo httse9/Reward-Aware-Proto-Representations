@@ -1,10 +1,6 @@
->📋  A template README.md for code accompanying a Machine Learning paper
-
 # Reward-Aware Proto-Representations in Reinforcement Learning
 
 This repository is the official implementation of Reward-Aware Proto-Representations in Reinforcement Learning. <!-- (https://arxiv.org/abs/2030.12345). -->
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
@@ -15,8 +11,6 @@ conda create -n RAPR python=3.12
 conda activate RAPR
 pip install -r requirements.txt
 ```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
 
@@ -55,8 +49,6 @@ python -m  minigrid_basics.examples.rod_figure_5
 python -m  minigrid_basics.examples.rod_figure_7
 ```
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
 ### Count-Based Exploration
 Refer to readme in CountBased
 
@@ -82,9 +74,6 @@ python -m minigrid_basics.examples.figure_123
 
 ## Results
 See minigrid_basics/plots
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
 
 ## Contributing
 
