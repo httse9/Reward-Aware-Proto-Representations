@@ -76,5 +76,4 @@ python -m minigrid_basics.examples.figure_123
 See minigrid_basics/plots
 
 ## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
+Licensed under the Apache License, Version 2.0 (the "License")
